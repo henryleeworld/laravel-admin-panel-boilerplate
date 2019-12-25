@@ -26,8 +26,8 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/gbzfIry.png)
+![](https://i.imgur.com/2GGR71O.png)
 > 使用現有的帳號登入
 
-![](https://i.imgur.com/XUbz3WJ.png)
+![](https://i.imgur.com/11Dsh0m.png)
 > 建立新的帳號

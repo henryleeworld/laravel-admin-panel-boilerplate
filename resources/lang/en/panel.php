@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'site_title' => 'User Registration',
+    'site_title' => 'Admin Panel Boilerplate',
 ];

@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'site_title' => '註冊帳號',
+    'site_title' => '後臺管理模板',
 ];
