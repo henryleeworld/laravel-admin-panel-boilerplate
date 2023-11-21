@@ -17,7 +17,7 @@
                 <form method="POST" action="{{ route('password.email') }}">
                     @csrf
 
-                    <div class="form-group">
+                    <div class="mb-3">
                         <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" required autocomplete="email" autofocus placeholder="{{ trans('global.login_email') }}" value="{{ old('email') }}">
 
                         @if($errors->has('email'))

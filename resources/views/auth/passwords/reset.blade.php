@@ -13,7 +13,7 @@
 
                     <input name="token" value="{{ $token }}" type="hidden">
 
-                    <div class="form-group">
+                    <div class="mb-3">
                         <input id="email" type="email" name="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" required autocomplete="email" autofocus placeholder="{{ trans('global.login_email') }}" value="{{ $email ?? old('email') }}">
 
                         @if($errors->has('email'))
@@ -22,7 +22,7 @@
                             </div>
                         @endif
                     </div>
-                    <div class="form-group">
+                    <div class="mb-3">
                         <input id="password" type="password" name="password" class="form-control" required placeholder="{{ trans('global.login_password') }}">
 
                         @if($errors->has('password'))
@@ -31,7 +31,7 @@
                             </div>
                         @endif
                     </div>
-                    <div class="form-group">
+                    <div class="mb-3">
                         <input id="password-confirm" type="password" name="password_confirmation" class="form-control" required placeholder="{{ trans('global.login_password_confirmation') }}">
                     </div>
 
