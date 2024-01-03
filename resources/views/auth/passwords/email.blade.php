@@ -18,7 +18,7 @@
                     @csrf
 
                     <div class="mb-3">
-                        <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" required autocomplete="email" autofocus placeholder="{{ trans('global.login_email') }}" value="{{ old('email') }}">
+                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" placeholder="{{ trans('global.login_email') }}" value="{{ old('email') }}" required autocomplete="email" autofocus>
 
                         @if($errors->has('email'))
                             <div class="invalid-feedback">
